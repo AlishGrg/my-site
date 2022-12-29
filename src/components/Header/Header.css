@@ -1,0 +1,25 @@
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 10px;
+}
+.navbar{
+    /* From https://css.glass */
+/*background: rgba(248, 109, 202, 0.92); */
+box-shadow: rgba(0, 0, 0, 0.4) 0 4px 18px;
+backdrop-filter: blur(18.2px);
+-webkit-backdrop-filter: blur(18.2px);
+}
+.category{
+    color: rgb(148, 148, 148);
+    font-size: large;
+}
+.category:hover{
+    color:black
+}
+.navbar-toggler:focus{
+    outline: none;
+    border: none;
+}
+.navbar-brand{
+    padding-left: 1.5rem;
+}
+
